@@ -17,14 +17,14 @@
 }
 .barra img {
     height: auto;
-    width: 20rem;
-    max-width: 40rem;
-    max-height: 70rem;
+   
+    
   
 }
 .navegacion{
     margin-top: 5rem;
     display: flex;
+    align-items: center;
     gap: 2rem;
 }
 @media(min-width: 768px){

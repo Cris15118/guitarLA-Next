@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/header.module.css";
+import styles from "@/styles/header.module.css"
 import { useRouter } from "next/router";
 
 function Header() {
@@ -15,6 +15,7 @@ function Header() {
             alt="imagen logotipo"
             width={300}
             height={40}
+            
           />
         </Link>
 
@@ -42,6 +43,9 @@ function Header() {
             className={router.pathname === "/blog" ? styles.active : ""}
           >
             Blog
+          </Link>
+          <Link href={"/carrito"}>
+          <Image src="/img/carrito.png" width={20} height={25} alt="Imagen carrito"/>
           </Link>
         </nav>
       </div>

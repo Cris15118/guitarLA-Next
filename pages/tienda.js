@@ -30,7 +30,7 @@ export default function Tienda({guitarras}) {
 }
 
 // export async function getStaticProps(){
-//   const respuesta = await fetch(`${process.env.API_URL}/guitarras?populate=image`)
+//   const respuesta = await fetch(`${process.env.API_URL}/guitarras?populate=imagen`)
 //   const {data: guitarras} = await respuesta.json()
  
 
